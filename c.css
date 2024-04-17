@@ -1,0 +1,37 @@
+/* Reset styles */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+header, footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+#about, #skills, #projects, #resume, #contact {
+    padding: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+/* Media query for responsiveness */
+@media (min-width: 768px) {
+    header {
+        padding: 40px 0;
+    }
+
+    #about, #skills, #projects, #resume, #contact {
+        padding: 40px;
+    }
+    .image-link-container {
+        display: flex;
+        align-items: center;
+      }
+      
+}
